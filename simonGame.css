@@ -1,0 +1,243 @@
+.quarters {
+  width: 200px; 
+  height: 200px;
+  border-style: solid;
+  border-color: #262626;
+  display: block;
+  overflow: hidden;
+  margin: 0px;
+}
+
+.insideQuarters {
+  width: 100px; 
+  height: 100px;
+  border-style: solid;
+  border-color: #262626;
+  display: block;
+  overflow: hidden;
+  margin: 0px;
+}
+
+
+#topLeft {
+  background-color: #008000;
+  border-top-left-radius: 200px;    
+  border-left-width: 15px;
+  border-right-width: 0px;
+  border-top-width: 15px;
+  border-bottom-width: 0px;
+  float: left;
+}
+
+#insideTopLeft {
+  background-color: gray;
+  border-top-left-radius: 100px;
+  border-left-width: 8px;
+  border-right-width: 0px;
+  border-top-width: 8px;
+  border-bottom-width: 0px;
+  float: right;
+  margin-top: 100px;
+}
+
+
+#topRight {
+  background-color: #cc0000;
+  border-top-right-radius: 200px;
+  border-left-width: 0px;
+  border-right-width: 15px;
+  border-top-width: 15px;
+  border-bottom-width: 0px;
+}
+
+#insideTopRight {
+  background-color: gray;
+  border-top-right-radius: 100px;
+  border-left-width: 0px;
+  border-right-width: 8px;
+  border-top-width: 8px;
+  border-bottom-width: 0px;
+  float: left;
+  margin-top: 100px;
+}
+
+#bottomLeft {
+  background-color: #cccc00;
+  border-bottom-left-radius: 200px;
+  float: left;
+  border-left-width: 15px;
+  border-right-width: 0px;
+  border-top-width: 0px;
+  border-bottom-width: 15px;
+}
+
+#insideBottomLeft {
+  background-color: gray;
+  border-bottom-left-radius: 100px;
+  border-left-width: 8px;
+  border-right-width: 0px;
+  border-top-width: 0px;
+  border-bottom-width: 8px;
+  float: right;
+  margin-bottom: 100px;
+}
+
+#bottomRight {
+  background-color: #0000b3;
+  border-bottom-right-radius: 200px;
+  border-left-width: 0px;
+  border-right-width: 15px;
+  border-top-width: 0px;
+  border-bottom-width: 15px;
+}
+
+#insideBottomRight {
+  background-color: gray;
+  border-bottom-right-radius: 100px;
+  border-left-width: 0px;
+  border-right-width: 8px;
+  border-top-width: 0px;
+  border-bottom-width: 8px;
+  float: left;
+  margin-bottom: 100px;
+}
+
+#simText, #onText {
+  font-size: 3rem;
+  margin-top: 35px;
+  font-family: Impact, Verdana;
+}
+
+#simText {
+  text-align: right;
+}
+
+#onText {
+  text-align: left;
+}
+
+#scoreCountOff {
+  text-align: right;
+}
+
+#scoreboard {
+  height: 30px;
+  width: 50px;
+  background-color: #660000;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  float: right;
+  overflow: auto;
+  display: inline-block;
+  font-size: 1rem;
+  font-family: Verdana;
+  color: red;
+  border: none;
+}
+
+#count {
+  float: right;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  display: inline-block;
+  overflow: auto;
+  margin-right: 2px;
+  font-family: Lucida Bright;
+  font-size: 15px;
+}
+
+#off {
+  float: right;
+  text-align: right;
+  margin: 0px;
+  padding: 0px;
+}
+
+#offBlue {
+  height: 20px;
+  width: 20px;
+  background-color: blue;
+  float: right;
+  margin: 0px;
+  border: none; 
+}
+
+#turnOffText {
+  float: right;
+  overflow: auto;
+  margin-left: 0px;
+  padding-top: 0px;
+  margin-left: 3px;
+}
+
+#startButton {
+  background-color: gray;
+  height: 20px;
+  width: 20px;
+  display: block;
+  border-radius: 50%;
+  border: 3px solid black;
+  margin-top: 5px;
+  margin-left: 20px;
+  float: left;
+}
+
+#strictButton {
+  background-color: gray;
+  height: 20px;
+  width: 20px;
+  display: block;
+  border-radius: 50%;
+  border: 3px solid black;
+  margin-top: 5px;
+  margin-left: 20px;
+  float: left;
+}
+
+#startStrictText {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  display: inline-block;
+  overflow: auto;
+  font-family: Lucida Bright;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+#onBlue {
+  height: 20px;
+  width: 20px;
+  background-color: darkgray;
+  float: left;
+  margin: 0px;
+  margin-top: 13px;
+  border: none;
+}
+
+#turnOnText {
+  margin-top: 5px;
+  padding-top: 8px;
+  border-top: 10px;
+  display: block;
+  text-align: center;
+  overflow: auto;
+  float: left;
+  margin-left: 1px;
+} 
+
+#instructionsButton {
+  margin-left: 135px;
+  margin-top: 50px;
+}
+
+#instructions {
+  display: none;
+  font-family: Verdana;
+  font-size: 1rem;
+  text-align: left;
+  width: 400px;
+}

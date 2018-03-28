@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="simonGame.css">
+
+</head>
+
+  <body>
+    <p>
+       
+    <div id="topLeft" class="quarters">  
+     <div id="insideTopLeft" class="insideQuarters"> 
+        <p id="simText"> Sim </p>
+      </div>  
+    </div>
+  
+    <div id="topRight" class="quarters"> 
+      <div id="insideTopRight" class="insideQuarters"> 
+        <p id="onText"> on™  </p>
+      </div>  
+    </div> 
+    
+   
+  <div id="bottomLeft" class="quarters"> 
+    <div id="insideBottomLeft" class="insideQuarters"> 
+       <button id="scoreboard"> </button> <br> <br>
+      <p id="count"> <bold> Count </bold> </p> <br> 
+      <p id="turnOffText">
+         OFF <button id="offBlue"> </button> </p>
+    </div> 
+  </div>   
+    
+    
+  <div id="bottomRight" class="quarters">   <div id="insideBottomRight" class="insideQuarters"> 
+    <button id="startButton"> </button>
+    <button id="strictButton"> </button>
+    <br>
+    <p id="startStrictText">
+      Start  Strict
+    </p>
+    
+    <div>
+      <button id="onBlue"> </button> <p>  </p>    
+    </div>
+    <div id="turnOnText"> ON </div>
+
+    
+    </div> 
+    </div>
+    
+    
+    
+    </p> 
+
+
+
+<audio id="audio1">
+  
+          <source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" 
+                   type="audio/mp3">
+
+         </audio>
+
+<audio id="audio2">
+  
+          <source src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3" 
+                   type="audio/mp3">
+
+         </audio>
+
+<audio id="audio3">
+  
+          <source src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" 
+                   type="audio/mp3">
+
+         </audio>
+
+<audio id="audio4">
+  
+          <source src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3" 
+                   type="audio/mp3">
+
+         </audio>
+
+<button id="instructionsButton"> Show / Hide Instructions </button>
+
+  <ol id="instructions">
+    <li> Click the "ON" button to turn on Simon </li>
+    <li> Click the start button to begin the game </li>
+    <li> Follow the order of the moves carefully </li>
+    <li> Repeat the moves by clicking the correct colors </li>
+    <li> Get a move wrong, and you'll repeat the level </li>
+    <li> If strict is enabled, you'll go back to level 1</li>
+    <li> You can win the game by beating Level 20 </li>
+</ol>
+
+<audio id="wrongAnswer">
+  
+           <source src="https://www.soundjay.com/misc/fail-buzzer-04.mp3" 
+                   type="audio/mp3">
+
+         </audio>
+
+<script src="simonGame.js"></script>
+
+		 
+    </body>
+    </html>
+
+
+  
+ 
